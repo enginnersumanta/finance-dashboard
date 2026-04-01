@@ -7,13 +7,13 @@ This project allows users to track their financial activity, visualize spending 
 
 ## 🚀 Live Demo
 
-👉 Add your deployed link here (Vercel / Netlify)
+👉 Add your deployed link here (" https://enginnersumanta.github.io/finance-dashboard/ ")
 
 ---
 
 ## 📸 Preview
 
-👉 ![alt text](Screenshot_2-4-2026_03727_localhost.jpeg)
+👉 ![Screenshot](./src/assets/Screenshot.jpeg)
 
 ---
 
@@ -101,7 +101,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/personal-finance-dashboard.git
+https://enginnersumanta.github.io/finance-dashboard
 
 # Navigate to project folder
 cd personal-finance-dashboard
@@ -155,8 +155,8 @@ npm run dev
 **Your Name**
 Frontend Developer (React)
 
-* GitHub: https://github.com/your-username
-* LinkedIn: Add your LinkedIn link
+* GitHub: https://enginnersumanta
+* LinkedIn: www.linkedin.com/in/sumanta-mandal-80768123b
 
 ---
 

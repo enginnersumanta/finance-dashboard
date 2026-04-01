@@ -6,4 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig(({ command }) => ({
   base: command === 'build' ? '/Finance/' : '/',
   plugins: [react(), tailwindcss()],
+  base: "/finance-dashboard/",
 }))
+

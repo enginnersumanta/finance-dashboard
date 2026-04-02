@@ -7,7 +7,7 @@ This project allows users to track their financial activity, visualize spending 
 
 ## 🚀 Live Demo
 
-👉 Add your deployed link here (" https://enginnersumanta.github.io/finance-dashboard/ ")
+👉 https://enginnersumanta.github.io/finance-dashboard/
 
 ---
 

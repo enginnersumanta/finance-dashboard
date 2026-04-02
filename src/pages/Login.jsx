@@ -1,8 +1,10 @@
 import { useState } from "react"
 import { useAuth } from "../context/useAuth"
+import { useFinance } from "../context/useFinance"
 
 export default function Login() {
   const { login, authError, setAuthError } = useAuth()
+  const { darkMode, setDarkMode } = useFinance()
   const [email, setEmail] = useState("admin@finance.com")
   const [password, setPassword] = useState("admin123")
   const [showPassword, setShowPassword] = useState(false)
@@ -15,6 +17,17 @@ export default function Login() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-linear-to-br from-slate-100 via-sky-50 to-emerald-100 px-4 py-8 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800">
       <section className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-xl dark:border-slate-700 dark:bg-slate-900">
+        <div className="mb-4 flex justify-end">
+          <button
+            type="button"
+            onClick={() => setDarkMode((prev) => !prev)}
+            className="rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
+          >
+            <span className="mr-1">{darkMode ? "☀️" : "🌙"}</span>
+            {darkMode ? "Light mode" : "Dark mode"}
+          </button>
+        </div>
+
         <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-100">Finance Dashboard Login</h1>
         <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
           Sign in as Admin or Viewer to continue.

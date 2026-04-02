@@ -11,17 +11,15 @@ function AppShell() {
 		return <Login />
 	}
 
-	return (
-		<FinanceProvider>
-			<Dashboard />
-		</FinanceProvider>
-	)
+	return <Dashboard />
 }
 
 export default function App() {
 	return (
 		<AuthProvider>
-			<AppShell />
+			<FinanceProvider>
+				<AppShell />
+			</FinanceProvider>
 		</AuthProvider>
 	)
 }

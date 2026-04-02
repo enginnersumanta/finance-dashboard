@@ -17,6 +17,7 @@ export default function RoleSwitcher() {
         onClick={() => setDarkMode((prev) => !prev)}
         className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium transition hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800 dark:hover:bg-slate-700"
       >
+        <span className="mr-2">{darkMode ? "☀️" : "🌙"}</span>
         {darkMode ? "Light mode" : "Dark mode"}
       </button>
 

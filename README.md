@@ -97,24 +97,6 @@ src/
 
 ---
 
-## ⚙️ Installation & Setup
-
-```bash
-# Clone the repository
-https://enginnersumanta.github.io/finance-dashboard
-
-# Navigate to project folder
-cd personal-finance-dashboard
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
-
----
-
 ## 🧩 Approach
 
 * Built using **component-based architecture**

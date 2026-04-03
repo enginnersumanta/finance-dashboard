@@ -13,7 +13,9 @@ This project allows users to track their financial activity, visualize spending 
 
 ## 📸 Preview
 
-👉 ![Screenshot](./src/assets/Screenshot.jpeg)
+👉 ![Screenshot](https://raw.githubusercontent.com/enginnersumanta/finance-dashboard/main/src/assets/Screenshot%20viewer%20page.jpeg)
+
+
 
 ---
 
@@ -134,11 +136,11 @@ src/
 
 ## 🙌 Author
 
-**Your Name**
-Frontend Developer (React)
+**Sumanta Mandal**
+<br />Frontend Developer (React)
 
-* GitHub: https://enginnersumanta
-* LinkedIn: www.linkedin.com/in/sumanta-mandal-80768123b
+* GitHub: https://github.com/enginnersumanta
+* LinkedIn: https://www.linkedin.com/in/sumanta-mandal-80768123b
 
 ---
 
